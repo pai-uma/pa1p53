@@ -6,7 +6,7 @@ public class Main {
 
     public static void main(String[] args) throws IOException {
         Mundo ps = new Mundo();
-		ps.cargar("data/alturas.txt");
+	ps.cargar("data/alturas.txt");
         System.out.println("\nPaíses por altura");
         Mundo.presentaEnConsola(ps.paisesPorAltura());
         System.out.println("\nNúmero de Países por continente");
